@@ -193,8 +193,14 @@ header {
     height: 100%;
   }
   .introduction-text h1 {
-    font-size: 34px !important;
+    font-size: 25px !important;
     line-height: 50px !important;
+  }
+  .two{
+    padding-top: 10px !important;
+  }
+  .info-list .list li{
+    font-size: 14px !important;
   }
   .introduction-text p {
     font-size: 18px !important;
@@ -490,6 +496,10 @@ header {
   .text-container .main-info p {
     font-size: 12px !important;
   }
+  .text-container{
+    padding: 0 !important;
+  }
+
 }
 .text-container {
   display: flex;
@@ -532,6 +542,22 @@ header {
   font-weight: 600;
   line-height: 51px;
   color: #101828;
+}
+@media (max-width: 767px) {
+
+  .Energy .container .col .srv h1 {
+    font-size: 24px !important;
+  }
+  .Energy .container .col .srv .box img {
+    width: 100% !important;
+  }
+  .Energy{
+    padding-bottom: 0 !important;
+  }
+  .values{
+    padding: 10px 0 !important;
+
+  }
 }
 .Energy .container .col .srv {
   margin-bottom: 40px;
@@ -615,7 +641,14 @@ header {
    flex-direction: column;
   }
   .slider-container {
-    width: 500px !important;
+    width: 100% !important;
+  }
+  .slider-bottom{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .power{
+    padding: 40px 0 !important;
   }
 }
 .say-about .container .left-part h1{
@@ -847,14 +880,20 @@ padding: 0 15px;
   .footer .container .top{
    flex-direction: column;
   }
+  .footer .container img{
+   width: 100%;
+  }
   .bottom {
-    flex-direction: column;
+    display: block;
 
   }
   .footer .container .top .top-links li {
     display: block;
     margin-right: 0 !important;
     margin-bottom: 10px;
+  }
+  .email form{
+    width: 100% !important;
   }
 
 }
